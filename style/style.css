@@ -1,0 +1,364 @@
+*{
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+}
+
+.navbar-brand{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.nav-link{
+  margin-right: 1vw;
+  border-radius: 54px;
+}
+.nav-link:hover{
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#content1 {
+  width: 45%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* margin: 2.63vw 4.67vw 0.87vw 4.67vw;
+    padding: 3.44vw 1.46vw 3.07vw 7.32vw; */
+    margin: 0vw;
+    padding: 3vw;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    border-radius: 14px;
+  }
+  #content1 div h1 {
+    padding-bottom: 30px;
+  }
+  #content1 div p {
+    color: hsl(208, 11%, 55%);
+    width: 19.48vw;
+  }
+  #content1 div img {
+    width: 50%;
+    height: auto;
+  }
+  .boxes{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .navbar{
+    background-color: #f8f9fa57!important;
+}
+.vidtext h2{
+  color:aliceblue;
+  font-family : Georgia, 'Times New Roman', Times, serif;
+  font-size: 5rem;
+  letter-spacing: 5px;
+  text-align:center;
+  padding: 0 15%;
+  position:absolute;
+  top:40%;
+
+  z-index:1;
+}
+ 
+.vidtext p{
+  color:aliceblue;
+  font-family : Georgia, 'Times New Roman', Times, serif;
+  font-size: 3rem;
+  letter-spacing: 3px;
+  text-align:center;
+  padding: 2% 15%;
+  position:absolute;
+  top:50%;
+
+  z-index:2;
+}
+
+video{
+  width: 100%;
+
+}
+.mg-top{
+  margin-top: 9vw;
+}
+.me-2{
+  margin-right: 0px !important;
+  height: 35px;
+  font-size: 0.8rem!important ;
+
+}
+
+.connect{
+  color:#faf9f6;
+  font-weight: 400;
+  background-color: #613842;
+  display: block;
+  position: fixed;
+  top:50%;
+  margin:0%;
+  padding:10px 10px 30px 10px;
+  transform: translate(-41%,-75%) rotate(90deg);
+}
+
+.connect h5 a{
+  color:#faf9f6;
+  text-decoration: none;
+}
+
+.TAILORED_EXPERIENCES{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  background-color: #faf9f6;
+  justify-content:space-evenly;
+  padding-top: 10%;
+}
+
+.TAILORED_EXPERIENCES .exp{
+  padding-left: 5%;
+}
+
+.TAILORED_EXPERIENCES .exp h2
+{
+  color: #613842;
+  font-family : Georgia, 'Times New Roman', Times, serif;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  padding-bottom: 20%;
+}
+
+.TAILORED_EXPERIENCES .exp p
+{
+  color: #202020;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight :300;
+  padding-bottom: 10%;
+  font-size : 1.5rem;
+
+}
+
+.Luxury_Destinations{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  background-color: #faf9f6;
+  justify-content:space-evenly;
+  padding-top: 10%;
+}
+
+.Luxury_Destinations .exp{
+  padding-left: 5%;
+}
+
+.Luxury_Destinations .exp h2
+{
+  color: #613842;
+  font-family : Georgia, 'Times New Roman', Times, serif;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  padding-bottom: 20%;
+}
+
+.Luxury_Destinations .exp p
+{
+  color: #202020;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight :300;
+  padding-bottom: 10%;
+  font-size : 1.5rem;
+
+}
+
+.lux-desti{
+  background-color:#faf9f6;
+}
+
+.lux-desti h2{
+  color: #202020;
+  font-size:3rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight :300;
+  padding:25px;
+  padding-left: 35%;
+  align-items: center;
+}
+
+.lux-desti p{
+  color: #202020;
+  font-size: 1.5rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight :300;
+  padding:25px 10%;
+ text-align: center;
+}
+
+.collage{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin:10%;
+  }
+  .collage:hover {
+    box-shadow: 8px 8px 16px 16px rgba(0,0,0,0.2);
+  }
+    
+  .collage .row1,.collage .row2,.collage .row3{
+     
+      display:flex;
+      overflow: hidden;
+      padding:5px;
+      height: 160px;
+  }
+  .collage .row1 row1col{
+  flex:50%;
+  
+  }
+  .collage .row2 row2col{
+  flex:33%;
+  }
+  .collage .row3 row3col{
+  flex:25%;
+  }
+  
+  .card-info{
+    margin:10% 10%;
+  }
+  
+  .card-col {
+      float: left;
+      width: 33%;
+      padding: 0 10px;
+    }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card-info:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+.newsletter{
+  border: solid black 2px;
+  background-color: #bbc4c8;
+}
+
+  .footer-email-form h2 {
+    color: #613842;
+    margin-left: 37%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  #footer-email{
+    margin-left: 27%;
+    width: 500px;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-size: 1rem ;
+    margin-bottom: 1rem;
+  }
+  
+  #footer-email-btn{
+    
+  width: 100px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 8px;
+  outline: none;
+    border: none;
+    color: aliceblue;
+    background-color: darksalmon;
+  }
+  
+  #footer-email-btn:hover{
+    cursor: pointer;
+  background-color: #613842;
+  }
+  
+
+
+  .foot{
+    font-size: 1.25rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:aliceblue;    
+    background-color: #2d2d2d;
+}
+
+
+.About-Us
+{   font-size: 1.25rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding:70px 100px; 
+}
+.About-Us ul{
+    list-style-type: none;
+}
+.infos{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Tailored-Exp, .Destinations , .Private-Rentals,.News-Press{
+margin:0px 10px;
+}
+
+.Tailored-Exp li, .Destinations li, .Private-Rentals li,.News-Press li{    
+text-align: left;
+margin:10px 0px;
+}
+
+.Tailored-Exp li:hover, .Destinations li:hover, .Private-Rentals li:hover,.News-Press li:hover{
+    color:#613842;
+}
+
+.main-info{
+    padding : 20px;
+}
+
+.main-info ul li{
+    padding : 8px;
+} 
+
+.main-info ul{
+    padding-top: 50px;
+}
+.fa {
+    margin-right: 5px;
+    padding: 20px;
+    font-size: 30px;
+    color:aliceblue;
+    background-color: #202020;
+  }
+
+  .fa:hover {
+    color:#613842;
+  }
+  
+  .Disclai{
+    margin:25px 0px 0px 0px;
+    padding-bottom: 1vw;
+    }
+    
+    .Disclai ul{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        list-style-type: none;
+    }
